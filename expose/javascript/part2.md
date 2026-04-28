@@ -48,3 +48,12 @@
 14f. The output is true. The Boolean(2) is true, meaning both are the same type and value. 
 
 15. The = = operator allows the both values/operands to be converted to a common type through type coercion before comparing them. The = = = operator does not allow any conversion. If the value/operands are different types, it returns false. 
+
+17. The result is [2, 4, 6]. The modifyArray function iterates through the input array [1, 2, 3], passing each element in the doSomething callback function. The doSomething doubles each element, and the resulting values are pushed into newArr and returned.
+
+19. The output is 
+1
+4
+3
+2
+
