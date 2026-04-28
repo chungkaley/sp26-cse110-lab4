@@ -18,3 +18,33 @@
 12d. student[‘Favorite Teacher’].name
 
 12e.studnet.courseLoad[0]
+
+13a. The output is 32. The + operator joins operands together if the one of the operands is a string. 
+
+13b. The output is 1. The - operator can be only used on numbers. The '3' is converted to a number. 
+
+13c. The output is 3. The null is converted to 0 in numeric operations. 
+
+13d. The output is 3null. The + operator joins operands together if the one of the operands is a string. 
+
+13e. The output is 4. The true is converted to 1 in numeric operations. 
+
+13f. The output is 0. The false and null are converted to 0 in numeric operations. 
+
+13g. The output is 3undefined. The + operator joins operands together if the one of the operands is a string. 
+
+13h. The output is NaN. The - triggers numeric operations and the undefined becomes NaN. 
+
+14a. The output is true. The '2' is converted to 2 and compared to 1. 
+
+14b. The output is false. With two strings, JavaScript uses lexicographical order. Since '2' comes after '1', '2' is considered greater than '1'.
+
+14c. The output is true. The = = allows  '2' to be converted into the number 2. 
+
+14d. The output is false The = = = does not allow '2' to be converted into the number 2.  
+
+14e. The output is false. The true converts to 1. 1= =2 is false.
+
+14f. The output is true. The Boolean(2) is true, meaning both are the same type and value. 
+
+15. The = = operator allows the both values/operands to be converted to a common type through type coercion before comparing them. The = = = operator does not allow any conversion. If the value/operands ar different types, it returns false. 
