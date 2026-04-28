@@ -10,7 +10,11 @@
 10. Line 12 prints 3. The “length” is declared with const. This makes it accessible throughout the function. The variable “length” can only be read, so Line 12 can print the array length of 3. 
 11. The function returns [50, 100, 150]. Even though “discounted” is declared with const, JavaScript allows the push() in the for loop to mutate the contents of an array as long as the code does not reassign the variable to a new array. 
 12a. student.name
+
 12b. student[‘Grad Year’]
+
 12c. student.greeting()
+
 12d. student[‘Favorite Teacher’].name
+
 12e.studnet.courseLoad[0]
