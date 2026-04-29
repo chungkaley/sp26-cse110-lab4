@@ -38,7 +38,7 @@
 
 14a. The output is true. The '2' is converted to 2 and compared to 1. 
 
-14b. The output is false. With two strings, JavaScript uses lexicographical order. Since '2' comes after '1', '2' is considered greater than '1'.
+14b. The output is false. With two strings, JavaScript uses lexicographical order.'2' comes after '1'
 
 14c. The output is true. The = = allows  '2' to be converted into the number 2. 
 
