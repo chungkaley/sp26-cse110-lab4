@@ -20,19 +20,19 @@
 
 12e. student.courseLoad[0]
 
-13a. The output is 32. The + operator joins operands together if the one of the operands is a string. 
+13a. The output is '32'. The + operator joins operands together if the one of the operands is a string. 
 
 13b. The output is 1. The - operator can be only used on numbers. The '3' is converted to a number. 
 
 13c. The output is 3. The null is converted to 0 in numeric operations. 
 
-13d. The output is 3null. The + operator joins operands together if the one of the operands is a string. 
+13d. The output is '3null'. The + operator joins operands together if the one of the operands is a string. 
 
 13e. The output is 4. The true is converted to 1 in numeric operations. 
 
 13f. The output is 0. The false and null are converted to 0 in numeric operations. 
 
-13g. The output is 3undefined. The + operator joins operands together if the one of the operands is a string. 
+13g. The output is '3undefined'. The + operator joins operands together if the one of the operands is a string. 
 
 13h. The output is NaN. The - triggers numeric operations and the undefined becomes NaN. 
 
