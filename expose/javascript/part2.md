@@ -55,6 +55,7 @@
 18. check code
 
 19. The output is 
+
 1
 
 4
