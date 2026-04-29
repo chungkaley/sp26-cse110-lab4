@@ -52,9 +52,14 @@
 
 17. The result is [2, 4, 6]. The modifyArray function iterates through the input array [1, 2, 3], passing each element in the doSomething callback function. The doSomething doubles each element, and the resulting values are pushed into newArr and returned.
 
+18. check code
+
 19. The output is 
 1
+
 4
+
 3
+
 2
 
