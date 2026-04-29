@@ -4,11 +4,12 @@
 4. This function returns [50, 100, 150]. Each input price was discounted by 50%. Then, the code pushed the discounted prices into the discounted array during the loop. Hence, this returns [50, 100, 150] at the end of the function. 
 5. Line 12 causes an error. This is because“i” is declared with let. Since let is blocked-scoped and only exists inside the for loop, it is not defined once the code reaches Line 12. 
 6. Line 13 causes an error. This is similar to #5 as “discountedPrice” is declared with let. Since let is blocked-scoped and only exists inside the for loop, it is not defined once the code reaches Line 13.
-7. Line 14 prints 150. The finalPrice is declared outside of the for loop. This means that finalPrice remains accessible after the for loop has executed. The finalPrice updates inside the loop. It holds the value from the last iteration and prints 150 on Line 14. 
-8. This function returns [50, 100, 150]. The discounted array was declared outside of the for loop. This makes it accessible throughout the function. Hence, the loop was able to return the discounted values at Line 16.
+7. Line 14 prints 150. The finalPrice is declared outside of the for loop and before it is used. This means that finalPrice remains accessible after the for loop has executed. The finalPrice updates inside the loop. It holds the value from the last iteration and prints 150 on Line 14. 
+8. This function returns [50, 100, 150]. The discounted array was declared outside of the for loop and before it is used. This makes it accessible throughout the function. Hence, the loop was able to return the discounted values at Line 16.
 9. Line 11 causes an error. The “i” is declared with let, which is block-scoped. This means that it is not defined when it is called on Line 11. 
 10. Line 12 prints 3. The “length” is declared with const. This makes it accessible throughout the function. The variable “length” can only be read, so Line 12 can print the array length of 3. 
-11. The function returns [50, 100, 150]. Even though “discounted” is declared with const, JavaScript allows the push() in the for loop to mutate the contents of an array as long as the code does not reassign the variable to a new array. 
+11. The function returns [50, 100, 150]. Using the push() in the for loop, we are pushing one discounted value at a time. Since we are not modifying const, we are not getting errors. 
+
 12a. student.name
 
 12b. student[‘Grad Year’]
@@ -37,7 +38,7 @@
 
 14a. The output is true. The '2' is converted to 2 and compared to 1. 
 
-14b. The output is false. With two strings, JavaScript uses lexicographical order. Since '2' comes after '1', '2' is considered greater than '1'.
+14b. The output is false. With two strings, JavaScript uses lexicographical order.'2' comes after '1'
 
 14c. The output is true. The = = allows  '2' to be converted into the number 2. 
 
@@ -49,11 +50,19 @@
 
 15. The = = operator allows the both values/operands to be converted to a common type through type coercion before comparing them. The = = = operator does not allow any conversion. If the value/operands are different types, it returns false. 
 
+16. check code
+
 17. The result is [2, 4, 6]. The modifyArray function iterates through the input array [1, 2, 3], passing each element in the doSomething callback function. The doSomething doubles each element, and the resulting values are pushed into newArr and returned.
 
+18. check code
+
 19. The output is 
+
 1
+
 4
+
 3
+
 2
 
