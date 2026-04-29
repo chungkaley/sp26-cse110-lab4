@@ -18,7 +18,7 @@
 
 12d. student[‘Favorite Teacher’].name
 
-12e.student.courseLoad[0]
+12e. student.courseLoad[0]
 
 13a. The output is 32. The + operator joins operands together if the one of the operands is a string. 
 
