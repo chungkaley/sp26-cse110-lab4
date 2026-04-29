@@ -8,7 +8,7 @@
 8. This function returns [50, 100, 150]. The discounted array was declared outside of the for loop and before it is used. This makes it accessible throughout the function. Hence, the loop was able to return the discounted values at Line 16.
 9. Line 11 causes an error. The “i” is declared with let, which is block-scoped. This means that it is not defined when it is called on Line 11. 
 10. Line 12 prints 3. The “length” is declared with const. This makes it accessible throughout the function. The variable “length” can only be read, so Line 12 can print the array length of 3. 
-11. The function returns [50, 100, 150]. Using the push() in the for loop, we are pushing one discounted value at a time. Since we are not modifying const, we are not getting errors. 
+11. The function returns [50, 100, 150]. Although discounted is a const, no errors occurs because we are mutating the contents of the array with push() rather than reassigning the varibale to a new memory address. 
 
 12a. student.name
 
